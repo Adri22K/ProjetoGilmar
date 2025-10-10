@@ -14,9 +14,20 @@ Objetivo: Miniaplicação Colaborativa com Consumo de API de Inteligência Artif
  
 3️⃣ README.md 
    O repositório deve conter: 
-   - Nome do projeto 
-   - Integrantes 
-   - API de IA utilizada 
+   
+   - Nome do projeto: ChecAI
+   
+   - Integrantes :
+   Adrielle Stollemberger 
+   Nicolas Santos
+   Victor Almeida
+   João Almeida
+   Samir Abdul
+   Caua
+   Murilo Solino 
+   
+   - API de IA utilizada: GeminiAi
+   
    - Explicação de como rodar/testar o projeto 
  
 4️⃣ Integração com API de IA 
