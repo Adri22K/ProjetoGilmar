@@ -15,7 +15,7 @@ Objetivo: Miniaplicação Colaborativa com Consumo de API de Inteligência Artif
 3️⃣ README.md 
    O repositório deve conter: 
    
-   - Nome do projeto: ChecAI
+   - Nome do projeto: Check.AI
    
    - Integrantes :
    Adrielle Stollemberger 
@@ -23,8 +23,7 @@ Objetivo: Miniaplicação Colaborativa com Consumo de API de Inteligência Artif
    Victor Almeida
    João Almeida
    Samir Abdul
-   Caua
-   Murilo Solino 
+   Caua Pacheco
    
    - API de IA utilizada: GeminiAi
    
