@@ -1,7 +1,8 @@
 # ============================
-# 🔐 Arquivos sensíveis
+# 🔐 arquivos de váriaveis de ambiente
 # ============================
 .env
+.env.example
 
 # ============================
 # ⚙ Dependências e builds
@@ -55,3 +56,4 @@ desktop.ini
 .env.development.local
 .env.test.local
 .env.production.local
+
