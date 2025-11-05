@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FactCheck - Detector de Fake News</title>
-    <link rel="stylesheet" href="css/estilo_base.css">
+    <link rel="stylesheet" href="css/index.css"> 
 </head>
 <body>
+    <!-- Container para a nova animação de fundo -->
+    <div class="background-alerts">
+        <span>FAKE NEWS</span>
+        <span>ALERTA</span>
+        <span>CUIDADO</span>
+        <span>VERIFIQUE</span>
+        <span>🚨</span>
+    </div>
     <div class="container">
         <div class="header">
             <div class="logo">🔍</div>
-            <h1>FactCheck</h1>
+            <h1>Check.IA</h1>
             <p class="subtitle">Verificador de Notícias com Google Gemini AI</p>
         </div>
 
         <div class="info-box success-box">
-            ✨ <strong>100% GRATUITO:</strong> E\ste projeto usa o Google Gemini API com cota generosa gratuita!
-            <a href="https://makersuite.google.com/app/apikey" target="_blank">Crie sua chave grátis aqui</a>
-        </div>
-
-        <div class="api-config">
-            <h3>🔑 Configuração da API Google Gemini</h3>
-            <input 
-                type="password" 
-                id="apiKey" 
-                placeholder="Cole sua chave da API Google Gemini aqui"
-                style="margin-top: 8px;"
-            >
+            ✨ <strong>100% GRATUITO:</strong> Este projeto usa o Google Gemini API com cota generosa gratuita!
         </div>
 
         <form id="checkForm">
@@ -62,9 +59,13 @@
                     <div class="confidence-fill" id="confidenceFill"></div>
                 </div>
             </div>
+            
+            <button class="btn btn-secondary" id="copyResultBtn" style="margin-top: 1.5rem;">
+                Copiar Análise
+            </button>
         </div>
     </div>
 
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
