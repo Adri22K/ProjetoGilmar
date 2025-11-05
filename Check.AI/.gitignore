@@ -2,7 +2,6 @@
 # 🔐 arquivos de váriaveis de ambiente
 # ============================
 .env
-.env.example
 
 # ============================
 # ⚙ Dependências e builds
