@@ -1,7 +1,0 @@
-{
-    "diffEditor.codeLens": true,
-    "editor.aiStats.enabled": false,
-    "editor.autoIndentOnPaste": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeActionsOnSave": {}
-}
