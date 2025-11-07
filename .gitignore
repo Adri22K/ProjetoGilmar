@@ -1,5 +1,5 @@
 # ============================
-# 🔐 Arquivos sensíveis
+# 🔐 arquivos de váriaveis de ambiente
 # ============================
 .env
 
@@ -55,3 +55,4 @@ desktop.ini
 .env.development.local
 .env.test.local
 .env.production.local
+
