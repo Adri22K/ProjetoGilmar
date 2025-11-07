@@ -1,0 +1,57 @@
+# ============================
+# 🔐 Arquivos sensíveis
+# ============================
+.env
+
+# ============================
+# ⚙ Dependências e builds
+# ============================
+node_modules/
+dist/
+build/
+out/
+.cache/
+
+# ============================
+# 🧹 Logs e arquivos temporários
+# ============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# ============================
+# 💻 Configurações locais (IDE / editor)
+# ============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================
+# 📦 Sistema e arquivos ocultos
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# 🖼 Arquivos de mídia temporários
+# ============================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
+# ============================
+# 🧩 Outros arquivos opcionais
+# ============================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
