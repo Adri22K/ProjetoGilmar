@@ -1,53 +1,73 @@
-# 📍 Projeto - Tópicos Avançados em Sistemas de Informação II 
+# 🔍 Check.AI - Verificador de Notícias 
 
-Objetivo: Miniaplicação Colaborativa com Consumo de API de Inteligência Artificial 
+Este projeto foi desenvolvido como parte da disciplina Tópicos Avançados em *Sistemas de Informação II, lecionada pelo Professor Gilmar Alexandre Do Prado Yahuita*
+com o objetivo de criar uma miniaplicação inteligente capaz de analisar e validar notícias, identificando se elas são verídicas ou Fake News.
 
-<h1> Requisitos Técnicos </h1>
+A aplicação utiliza a *IA do Google Gemini*, aproveitando seus recursos de processamento de
+linguagem natural (NLP) para interpretar o conteúdo textual das notícias e emitir uma avaliação automática sobre sua confiabilidade.
 
-1️⃣ Repositório GitHub 
-   - Criar um repositório público para o projeto. 
-   - Adicionar todos os membros do grupo como colaboradores. 
- 
-2️⃣ Commits e Branches 
-   - Cada aluno deve trabalhar em uma branch própria. 
-   - Alterações devem ser integradas na branch principal via Pull Request. 
- 
-3️⃣ README.md 
-   O repositório deve conter: 
-   
-   - Nome do projeto: Check.AI
-   
-   - Integrantes :
-   Adrielle Stollemberger 
-   Nicolas Santos
-   Victor Almeida
-   João Almeida
-   Samir Abdul
-   Caua Pacheco
-   
-   - API de IA utilizada: GeminiAi
-   
-   - Explicação de como rodar/testar o projeto 
- 
-4️⃣ Integração com API de IA 
-   - O projeto deve realizar ao menos uma requisição à API de IA. 
-   - A resposta deve ser exibida de forma clara (ex.: chatbot simples, imagem gerada a partir de 
-texto, resumo de um texto, etc.).
+## 🚀 O que o Check.AI faz
 
-<h1> Pontos Adicionais  </h1>
+Você cola uma notícia → a IA analisa → o sistema te mostra o resultado.
 
-- Criar tags e releases para marcar versões estáveis.
-- Usar .gitignore para evitar arquivos desnecessários.
-- Armazenar logs ou interações em banco de dados.
+
+# 💻 Tecnologias Utilizadas
+
+*Ambiente de desenvolvimento*
+- VSCode – Editor de códigos;
+- Git & GitHub – Versionamento e hospedagem do repositório;
+
+*Frontend*
+- HTML5 – Estrutura da interface;
+- CSS3 – Estilização e layout;
+- JavaScript – Lógica da interação com o usuário e consumo da API;
   
-<h1> Roteiro Sugerido </h1>
+*Backend*
+- dotenv – Armazenar e gerenciar variáveis de ambiente (ex: chave da API);
+- Node.js – ambiente de execução JavaScript  
+  
+*Inteligência Artificial*
+- Google Gemini API – Modelo de IA utilizado para analisar o texto e classificar a notícia como “Verdadeira”, “Falsa” ou “Duvidosa”;<br>A API pode ser usada gratuitamente através Google AI Studio.
 
-1. Criar o repositório no GitHub. 
-2. Configurar o projeto inicial localmente (git init, git remote add origin ...). 
-3. Cada aluno criar uma branch própria (git checkout -b nome_aluno). 
-4. Implementar a integração com a API de IA escolhida. 
-5. Fazer commits e enviar para o GitHub (git push origin nome_aluno). 
-6. Criar Pull Requests para mesclar as alterações. 
-7. Entregar o projeto final com README.md explicativo. 
+*Banco de Dados*
+- O projeto utiliza MongoDB Atlas para armazenar os logs de validações.
+As credenciais de conexão devem ser configuradas no arquivo .env usando a variável MONGO_URI.
+
+## ⚙ Conexões e segurança
+
+- A chave da IA (GEMINI_API_KEY) e a conexão do banco (MONGO_URI) ficam armazenadas em um arquivo .env, que *nunca deve ser enviado para o GitHub*.  
+- Isso garante a *segurança dos dados e das credenciais* da aplicação.
+
+## 💻 Como usar o Check.AI
+
+### ⿡ Acesse o sistema
+Abra o *Check.AI* no navegador.  
+
+### ⿢ Cole a notícia
+Copie e cole o texto, manchete ou link da notícia que você quer verificar no campo principal.
+
+✏ *Exemplo:*
+> “Trump está planejando viajar para o Brasil e soltar Bolsonaro que está preso em Tremembé.”
+
+### ⿣ Clique em *Verificar*
+O sistema vai enviar o texto para a IA, processar a resposta e mostrar o resultado na tela.
+
+### ⿤ Veja o resultado
+Você verá algo como:
+
+- *Resultado:* Possível Fake News  
+- *Motivo:* “Altamente improvável e não possui qualquer evidência ou fonte confiável.”
+- *Confiança:* 99%
+
+### ⿥ Consulte o histórico
+Abaixo dos resultados, há uma lista das últimas 3 notícias analisadas.  
 
 
+# 👥 Integrantes
+
+- Adrielle Stollemberger 
+- Nicolas Santos
+- Victor Almeida
+- João Almeida
+- Samir Abdul
+- Caua Pacheco
