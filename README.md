@@ -30,12 +30,12 @@ Você cola uma notícia → a IA analisa → o sistema te mostra o resultado.
 - Google Gemini API – Modelo de IA utilizado para analisar o texto e classificar a notícia como “Verdadeira”, “Falsa” ou “Duvidosa”;<br>A API pode ser usada gratuitamente através Google AI Studio.
 
 *Banco de Dados*
-- O projeto utiliza MongoDB Atlas para armazenar os logs de validações.
+- O projeto utiliza SqLite para armazenar os logs de validações.
 As credenciais de conexão devem ser configuradas no arquivo .env usando a variável MONGO_URI.
 
 ## ⚙ Conexões e segurança
 
-- A chave da IA (GEMINI_API_KEY) e a conexão do banco (MONGO_URI) ficam armazenadas em um arquivo .env, que *nunca deve ser enviado para o GitHub*.  
+- A chave da IA (GEMINI_API_KEY) e a conexão do banco server.js ficam armazenadas em um arquivo .env, que *nunca deve ser enviado para o GitHub*.  
 - Isso garante a *segurança dos dados e das credenciais* da aplicação.
 
 ## 💻 Como usar o Check.AI
