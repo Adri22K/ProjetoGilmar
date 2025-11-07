@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FactCheck - Detector de Fake News</title>
+    <link rel="stylesheet" href="css/index.css"> 
+</head>
+<body>
+    <!-- Container para a nova animação de fundo -->
+    <div class="background-alerts">
+        <span>FAKE NEWS</span>
+        <span>ALERTA</span>
+        <span>CUIDADO</span>
+        <span>VERIFIQUE</span>
+        <span>🚨</span>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🔍</div>
+            <h1>Check.IA</h1>
+            <p class="subtitle">Verificador de Notícias com Google Gemini AI</p>
+        </div>
+
+        <div class="info-box success-box">
+            ✨ <strong>100% GRATUITO:</strong> Este projeto usa o Google Gemini API com cota generosa gratuita!
+        </div>
+
+        <form id="checkForm">
+            <div class="input-group">
+                <label for="newsText">Cole o texto da notícia aqui:</label>
+                <textarea 
+                    id="newsText" 
+                    placeholder="Exemplo: 'Cientistas descobrem que beber 10 litros de água por dia cura todas as doenças...'"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn" id="submitBtn">
+                Verificar Notícia com IA
+            </button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 12px; color: #718096;">Analisando com Google Gemini AI...</p>
+        </div>
+
+        <div class="result" id="result">
+            <div class="result-icon" id="resultIcon"></div>
+            <div class="result-title" id="resultTitle"></div>
+            <div class="result-text" id="resultText"></div>
+            <div class="confidence">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                    <span style="font-size: 13px; font-weight: 600;">Confiança da Análise</span>
+                    <span style="font-size: 13px; font-weight: 600;" id="confidenceText"></span>
+                </div>
+                <div class="confidence-bar">
+                    <div class="confidence-fill" id="confidenceFill"></div>
+                </div>
+            </div>
+            
+            <button class="btn btn-secondary" id="copyResultBtn" style="margin-top: 1.5rem;">
+                Copiar Análise
+            </button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
