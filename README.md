@@ -72,3 +72,9 @@ Abaixo dos resultados, há uma lista das últimas 3 notícias analisadas.
 - Samir Abdul
 - Caua Pacheco
 
+- Adrielle Stollemberger 
+- Nicolas Santos
+- Victor Almeida
+- João Almeida
+- Samir Abdul
+- Caua Pacheco
